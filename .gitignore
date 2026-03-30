@@ -5,3 +5,6 @@ __pycache__/
 data/
 *.csv
 .ipynb_checkpoints/
+
+models/
+*.gguf
