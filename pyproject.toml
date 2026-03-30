@@ -1,0 +1,24 @@
+[project]
+name = "llm-inference-optimization"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "accelerate>=1.13.0",
+    "fastapi>=0.135.2",
+    "httpx>=0.28.1",
+    "ollama>=0.6.1",
+    "prometheus-client>=0.24.1",
+    "pydantic>=2.12.5",
+    "pydantic-settings>=2.13.1",
+    "pytest>=9.0.2",
+    "python-dotenv>=1.2.2",
+    "structlog>=25.5.0",
+    "torch>=2.11.0",
+    "transformers>=5.4.0",
+    "uvicorn[standard]>=0.42.0",
+]
+
+[[tool.uv.index]]
+url = "https://download.pytorch.org/whl/cpu"
